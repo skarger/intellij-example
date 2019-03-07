@@ -1,24 +1,20 @@
-# README
+# IntelliJ Bug Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby and Rails version should not be important to the issue, but for reference:
+```
+$ ruby --version
+ruby 2.6.1p33 (2019-01-30 revision 66950) [x86_64-darwin17]
+$ rails --version
+Rails 5.2.2
+```
 
-Things you may want to cover:
+I am using [rbenv](https://github.com/rbenv/rbenv) to manage Ruby versions.
 
-* Ruby version
 
-* System dependencies
+I generated this repository like so:
 
-* Configuration
+```
+$ rails new intellij-example
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+In the real apps we would have passed the Postgres DB option to `rails new` as well as other config, but I believe those details are unimportant.
